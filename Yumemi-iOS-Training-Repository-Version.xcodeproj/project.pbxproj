@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75681C2E262D647F00504A05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75681C2D262D647F00504A05 /* AppDelegate.swift */; };
+		75681C30262D647F00504A05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75681C2F262D647F00504A05 /* SceneDelegate.swift */; };
+		75681C32262D647F00504A05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75681C31262D647F00504A05 /* ViewController.swift */; };
+		75681C35262D647F00504A05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75681C33262D647F00504A05 /* Main.storyboard */; };
+		75681C37262D648000504A05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75681C36262D648000504A05 /* Assets.xcassets */; };
+		75681C3A262D648000504A05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75681C38262D648000504A05 /* LaunchScreen.storyboard */; };
+		75681C45262D648100504A05 /* Yumemi_iOS_Training_Repository_VersionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75681C44262D648100504A05 /* Yumemi_iOS_Training_Repository_VersionTests.swift */; };
+		75681C50262D648100504A05 /* Yumemi_iOS_Training_Repository_VersionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75681C4F262D648100504A05 /* Yumemi_iOS_Training_Repository_VersionUITests.swift */; };
+		75681C62262D668900504A05 /* YumemiWeather in Frameworks */ = {isa = PBXBuildFile; productRef = 75681C61262D668900504A05 /* YumemiWeather */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75681C41262D648100504A05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75681C22262D647F00504A05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75681C29262D647F00504A05;
+			remoteInfo = "Yumemi-iOS-Training-Repository-Version";
+		};
+		75681C4C262D648100504A05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75681C22262D647F00504A05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75681C29262D647F00504A05;
+			remoteInfo = "Yumemi-iOS-Training-Repository-Version";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75681C2A262D647F00504A05 /* Yumemi-iOS-Training-Repository-Version.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yumemi-iOS-Training-Repository-Version.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75681C2D262D647F00504A05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75681C2F262D647F00504A05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		75681C31262D647F00504A05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75681C34262D647F00504A05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75681C36262D648000504A05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75681C39262D648000504A05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75681C3B262D648000504A05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75681C40262D648100504A05 /* Yumemi-iOS-Training-Repository-VersionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yumemi-iOS-Training-Repository-VersionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75681C44262D648100504A05 /* Yumemi_iOS_Training_Repository_VersionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yumemi_iOS_Training_Repository_VersionTests.swift; sourceTree = "<group>"; };
+		75681C46262D648100504A05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75681C4B262D648100504A05 /* Yumemi-iOS-Training-Repository-VersionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yumemi-iOS-Training-Repository-VersionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75681C4F262D648100504A05 /* Yumemi_iOS_Training_Repository_VersionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yumemi_iOS_Training_Repository_VersionUITests.swift; sourceTree = "<group>"; };
+		75681C51262D648100504A05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75681C27262D647F00504A05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75681C62262D668900504A05 /* YumemiWeather in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75681C3D262D648100504A05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75681C48262D648100504A05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75681C21262D647F00504A05 = {
+			isa = PBXGroup;
+			children = (
+				75681C2C262D647F00504A05 /* Yumemi-iOS-Training-Repository-Version */,
+				75681C43262D648100504A05 /* Yumemi-iOS-Training-Repository-VersionTests */,
+				75681C4E262D648100504A05 /* Yumemi-iOS-Training-Repository-VersionUITests */,
+				75681C2B262D647F00504A05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75681C2B262D647F00504A05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75681C2A262D647F00504A05 /* Yumemi-iOS-Training-Repository-Version.app */,
+				75681C40262D648100504A05 /* Yumemi-iOS-Training-Repository-VersionTests.xctest */,
+				75681C4B262D648100504A05 /* Yumemi-iOS-Training-Repository-VersionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75681C2C262D647F00504A05 /* Yumemi-iOS-Training-Repository-Version */ = {
+			isa = PBXGroup;
+			children = (
+				75681C2D262D647F00504A05 /* AppDelegate.swift */,
+				75681C2F262D647F00504A05 /* SceneDelegate.swift */,
+				75681C31262D647F00504A05 /* ViewController.swift */,
+				75681C33262D647F00504A05 /* Main.storyboard */,
+				75681C36262D648000504A05 /* Assets.xcassets */,
+				75681C38262D648000504A05 /* LaunchScreen.storyboard */,
+				75681C3B262D648000504A05 /* Info.plist */,
+			);
+			path = "Yumemi-iOS-Training-Repository-Version";
+			sourceTree = "<group>";
+		};
+		75681C43262D648100504A05 /* Yumemi-iOS-Training-Repository-VersionTests */ = {
+			isa = PBXGroup;
+			children = (
+				75681C44262D648100504A05 /* Yumemi_iOS_Training_Repository_VersionTests.swift */,
+				75681C46262D648100504A05 /* Info.plist */,
+			);
+			path = "Yumemi-iOS-Training-Repository-VersionTests";
+			sourceTree = "<group>";
+		};
+		75681C4E262D648100504A05 /* Yumemi-iOS-Training-Repository-VersionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				75681C4F262D648100504A05 /* Yumemi_iOS_Training_Repository_VersionUITests.swift */,
+				75681C51262D648100504A05 /* Info.plist */,
+			);
+			path = "Yumemi-iOS-Training-Repository-VersionUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75681C29262D647F00504A05 /* Yumemi-iOS-Training-Repository-Version */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75681C54262D648100504A05 /* Build configuration list for PBXNativeTarget "Yumemi-iOS-Training-Repository-Version" */;
+			buildPhases = (
+				75681C26262D647F00504A05 /* Sources */,
+				75681C27262D647F00504A05 /* Frameworks */,
+				75681C28262D647F00504A05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Yumemi-iOS-Training-Repository-Version";
+			packageProductDependencies = (
+				75681C61262D668900504A05 /* YumemiWeather */,
+			);
+			productName = "Yumemi-iOS-Training-Repository-Version";
+			productReference = 75681C2A262D647F00504A05 /* Yumemi-iOS-Training-Repository-Version.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75681C3F262D648100504A05 /* Yumemi-iOS-Training-Repository-VersionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75681C57262D648100504A05 /* Build configuration list for PBXNativeTarget "Yumemi-iOS-Training-Repository-VersionTests" */;
+			buildPhases = (
+				75681C3C262D648100504A05 /* Sources */,
+				75681C3D262D648100504A05 /* Frameworks */,
+				75681C3E262D648100504A05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75681C42262D648100504A05 /* PBXTargetDependency */,
+			);
+			name = "Yumemi-iOS-Training-Repository-VersionTests";
+			productName = "Yumemi-iOS-Training-Repository-VersionTests";
+			productReference = 75681C40262D648100504A05 /* Yumemi-iOS-Training-Repository-VersionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75681C4A262D648100504A05 /* Yumemi-iOS-Training-Repository-VersionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75681C5A262D648100504A05 /* Build configuration list for PBXNativeTarget "Yumemi-iOS-Training-Repository-VersionUITests" */;
+			buildPhases = (
+				75681C47262D648100504A05 /* Sources */,
+				75681C48262D648100504A05 /* Frameworks */,
+				75681C49262D648100504A05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75681C4D262D648100504A05 /* PBXTargetDependency */,
+			);
+			name = "Yumemi-iOS-Training-Repository-VersionUITests";
+			productName = "Yumemi-iOS-Training-Repository-VersionUITests";
+			productReference = 75681C4B262D648100504A05 /* Yumemi-iOS-Training-Repository-VersionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75681C22262D647F00504A05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					75681C29262D647F00504A05 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					75681C3F262D648100504A05 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 75681C29262D647F00504A05;
+					};
+					75681C4A262D648100504A05 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 75681C29262D647F00504A05;
+					};
+				};
+			};
+			buildConfigurationList = 75681C25262D647F00504A05 /* Build configuration list for PBXProject "Yumemi-iOS-Training-Repository-Version" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75681C21262D647F00504A05;
+			packageReferences = (
+				75681C60262D668900504A05 /* XCRemoteSwiftPackageReference "ios-training" */,
+			);
+			productRefGroup = 75681C2B262D647F00504A05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75681C29262D647F00504A05 /* Yumemi-iOS-Training-Repository-Version */,
+				75681C3F262D648100504A05 /* Yumemi-iOS-Training-Repository-VersionTests */,
+				75681C4A262D648100504A05 /* Yumemi-iOS-Training-Repository-VersionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75681C28262D647F00504A05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75681C3A262D648000504A05 /* LaunchScreen.storyboard in Resources */,
+				75681C37262D648000504A05 /* Assets.xcassets in Resources */,
+				75681C35262D647F00504A05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75681C3E262D648100504A05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75681C49262D648100504A05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75681C26262D647F00504A05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75681C32262D647F00504A05 /* ViewController.swift in Sources */,
+				75681C2E262D647F00504A05 /* AppDelegate.swift in Sources */,
+				75681C30262D647F00504A05 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75681C3C262D648100504A05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75681C45262D648100504A05 /* Yumemi_iOS_Training_Repository_VersionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75681C47262D648100504A05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75681C50262D648100504A05 /* Yumemi_iOS_Training_Repository_VersionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75681C42262D648100504A05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75681C29262D647F00504A05 /* Yumemi-iOS-Training-Repository-Version */;
+			targetProxy = 75681C41262D648100504A05 /* PBXContainerItemProxy */;
+		};
+		75681C4D262D648100504A05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75681C29262D647F00504A05 /* Yumemi-iOS-Training-Repository-Version */;
+			targetProxy = 75681C4C262D648100504A05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75681C33262D647F00504A05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75681C34262D647F00504A05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75681C38262D648000504A05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75681C39262D648000504A05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75681C52262D648100504A05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75681C53262D648100504A05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75681C55262D648100504A05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N53995CJPD;
+				INFOPLIST_FILE = "Yumemi-iOS-Training-Repository-Version/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tatsuo.Yumemi-iOS-Training-Repository-Version";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75681C56262D648100504A05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N53995CJPD;
+				INFOPLIST_FILE = "Yumemi-iOS-Training-Repository-Version/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tatsuo.Yumemi-iOS-Training-Repository-Version";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		75681C58262D648100504A05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N53995CJPD;
+				INFOPLIST_FILE = "Yumemi-iOS-Training-Repository-VersionTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tatsuo.Yumemi-iOS-Training-Repository-VersionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yumemi-iOS-Training-Repository-Version.app/Yumemi-iOS-Training-Repository-Version";
+			};
+			name = Debug;
+		};
+		75681C59262D648100504A05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N53995CJPD;
+				INFOPLIST_FILE = "Yumemi-iOS-Training-Repository-VersionTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tatsuo.Yumemi-iOS-Training-Repository-VersionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yumemi-iOS-Training-Repository-Version.app/Yumemi-iOS-Training-Repository-Version";
+			};
+			name = Release;
+		};
+		75681C5B262D648100504A05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N53995CJPD;
+				INFOPLIST_FILE = "Yumemi-iOS-Training-Repository-VersionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tatsuo.Yumemi-iOS-Training-Repository-VersionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Yumemi-iOS-Training-Repository-Version";
+			};
+			name = Debug;
+		};
+		75681C5C262D648100504A05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N53995CJPD;
+				INFOPLIST_FILE = "Yumemi-iOS-Training-Repository-VersionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tatsuo.Yumemi-iOS-Training-Repository-VersionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Yumemi-iOS-Training-Repository-Version";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75681C25262D647F00504A05 /* Build configuration list for PBXProject "Yumemi-iOS-Training-Repository-Version" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75681C52262D648100504A05 /* Debug */,
+				75681C53262D648100504A05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75681C54262D648100504A05 /* Build configuration list for PBXNativeTarget "Yumemi-iOS-Training-Repository-Version" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75681C55262D648100504A05 /* Debug */,
+				75681C56262D648100504A05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75681C57262D648100504A05 /* Build configuration list for PBXNativeTarget "Yumemi-iOS-Training-Repository-VersionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75681C58262D648100504A05 /* Debug */,
+				75681C59262D648100504A05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75681C5A262D648100504A05 /* Build configuration list for PBXNativeTarget "Yumemi-iOS-Training-Repository-VersionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75681C5B262D648100504A05 /* Debug */,
+				75681C5C262D648100504A05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		75681C60262D668900504A05 /* XCRemoteSwiftPackageReference "ios-training" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yumemi-inc/ios-training.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		75681C61262D668900504A05 /* YumemiWeather */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75681C60262D668900504A05 /* XCRemoteSwiftPackageReference "ios-training" */;
+			productName = YumemiWeather;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 75681C22262D647F00504A05 /* Project object */;
+}
