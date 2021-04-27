@@ -11,6 +11,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WeatherView" customModule="Yumemi_iOS_Training_Repository_Version" customModuleProvider="target">
             <connections>
+                <outlet property="closeButton" destination="wap-lf-SZc" id="1cS-b3-U1c"/>
+                <outlet property="highestTemperatureLabel" destination="P7Q-ie-iV0" id="bOi-Sz-fBL"/>
+                <outlet property="minimumTemperatureLabel" destination="jpS-PE-ldm" id="K1w-pt-bvl"/>
                 <outlet property="reloadButton" destination="oSD-cn-Rkb" id="4yM-5L-S1Y"/>
                 <outlet property="weatherImageView" destination="dVx-oU-4wr" id="ynz-xo-xXM"/>
             </connections>

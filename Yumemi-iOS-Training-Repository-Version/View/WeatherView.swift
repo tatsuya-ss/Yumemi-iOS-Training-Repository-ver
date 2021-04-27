@@ -11,7 +11,9 @@ import UIKit
 class WeatherView : UIView {
     @IBOutlet weak var weatherImageView: UIImageView!
     @IBOutlet weak var reloadButton: UIButton!
-    
+    @IBOutlet weak var closeButton: UIButton!
+    @IBOutlet weak var minimumTemperatureLabel: UILabel!
+    @IBOutlet weak var highestTemperatureLabel: UILabel!
     override init(frame: CGRect) {
         super.init(frame: frame)
         loadNib()
