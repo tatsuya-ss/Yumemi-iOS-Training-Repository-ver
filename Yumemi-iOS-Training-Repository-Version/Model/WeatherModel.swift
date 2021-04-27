@@ -18,8 +18,6 @@ struct WeatherStateDTO : Codable {
 
 struct YumemiWeatherFetchingRepository : WeatherFethcingRepositoryProtocol {
     func fetch(at area: String, completion: (Result<WeatherState, WeatherFethcingError>) -> Void) {
-        
-        
         do {
             let jsonWeather = try YumemiWeather.fetchWeather(area)
             guard let weatherData = jsonWeather.data(using: .utf8) else { completion(.failure(.parserError))
@@ -34,6 +32,14 @@ struct YumemiWeatherFetchingRepository : WeatherFethcingRepositoryProtocol {
         }
     }
 }
+
+
+struct NotificationModel : NotificationProtocol {
+    func notificationForeground() {
+        NotificationCenter.default.post(name: Notification.Name("Foreground"), object: nil)
+    }
+}
+
 
 private extension WeatherState {
     init(dto: WeatherStateDTO) {  // WeatherStateDTO型を共通のWeatherState型に変換する
