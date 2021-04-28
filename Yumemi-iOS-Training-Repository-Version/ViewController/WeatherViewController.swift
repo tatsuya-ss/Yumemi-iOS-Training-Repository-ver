@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Foundation
 
 // 共通型
 enum Weather {
@@ -32,6 +33,10 @@ protocol WeatherFethcingRepositoryProtocol {
     func fetch(at area: String, completion: (Result<WeatherState, WeatherFethcingError>) -> Void)
 }
 
+protocol NotificationProtocol {
+    func notificationForeground()
+}
+
 
 class WeatherViewController: UIViewController {
     private var weatherRepository: WeatherFethcingRepositoryProtocol? {
@@ -51,38 +56,7 @@ class WeatherViewController: UIViewController {
         print("天気ViewのviewDidLoadが終わった")
         weatherRepository = YumemiWeatherFetchingRepository()
     }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(true)
-        print("天気viewが現れる前")
-    }
 
-    override func viewWillLayoutSubviews() {
-        super.viewWillLayoutSubviews()
-        print("天気viewがレイアウトされる前")
-    }
-    
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
-        print("天気viewがレイアウトされた後")
-    }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(true)
-        print("天気Viewが現れた！")
-    }
-    
-    override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(true)
-        print("天気Viewが消える前")
-    }
-    
-    override func viewDidDisappear(_ animated: Bool) {
-        super.viewDidDisappear(true)
-        print("天気Viewが消えた後")
-    }
-    
-    
     private func registerModel() {
         weatherView.reloadButton.addTarget(self,
                                            action: #selector(onReloadButtonTapped),
@@ -91,6 +65,8 @@ class WeatherViewController: UIViewController {
         weatherView.closeButton.addTarget(self,
                                           action: #selector(onCloseButtonTapped),
                                           for: .touchUpInside)
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(onReloadButtonTapped), name: NSNotification.Name(rawValue: "Foreground"), object: nil)
     }
     
     @objc private func onReloadButtonTapped() {
@@ -121,9 +97,7 @@ class WeatherViewController: UIViewController {
     }
     
     @objc private func onCloseButtonTapped() {
-//        performSegue(withIdentifier: "blackSegue", sender: nil)
-        self.dismiss(animated: true, completion: nil)
-        
+        performSegue(withIdentifier: "blackSegue", sender: nil)
     }
 }
 
